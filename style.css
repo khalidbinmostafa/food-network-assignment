@@ -31,6 +31,10 @@ section{
     height: 100%;
     width: 100%;
 }
+.background-img{
+    background-image: url(images/shapes/border.png);
+    background-repeat: no-repeat;
+}
 .text-align{
     text-align: center;
 }
@@ -41,18 +45,31 @@ section{
 }
 .pic-flex{
     display: flex;
-}
-.width{
-    width: 33.33%;
-    padding-left: 5%;
-    padding-right: 5%;
+    text-align: center;
 }
 .inline-border{
     padding-left: 5%;
     padding-right: 5%;
     margin: 50px 50px;
 }
+.experience-item{
+    width: 100%;
+    margin-left: 4%;
+    margin-right: 4%;
+ border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    text-align: justify;
+} 
 .background-color{
     background-color: black;
     color: white;
 }
+.experience-area{
+    width: 100%;
+ border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    text-align: justify;
+}
+ footer{
+    text-align: center;
+ }
