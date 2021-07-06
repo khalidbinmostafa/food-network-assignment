@@ -24,8 +24,35 @@ section{
 .half-width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
     text-decoration: none;
 }
 .half-width img{
-    width: 80%;
+    height: 100%;
+    width: 100%;
+}
+.text-align{
+    text-align: center;
+}
+#center{
+    text-align: justify;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.pic-flex{
+    display: flex;
+}
+.width{
+    width: 33.33%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.inline-border{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 50px 50px;
+}
+.background-color{
+    background-color: black;
+    color: white;
 }
